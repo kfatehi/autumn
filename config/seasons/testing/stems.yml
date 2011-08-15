@@ -1,10 +1,9 @@
 --- 
 Example: 
-  nick: MyIRCBot
+  nick: Please_leave_bot
   leaves: 
   - Administrator
-  - Scorekeeper
-  - Insulter
+  - Getoutbot
   rejoin: true
-  channel: "#yourchannel"
-  server: irc.yourircserver.com
+  channel: "#fossgames"
+  server: irc.freenode.com

@@ -1,6 +1,7 @@
 # Controller for the Administrator leaf.
 
 class Controller < Autumn::Leaf
+  before_filter :authenticate, :only => :quit
   
   # Typing this command reloads all source code for all leaves and support
   # files, allowing you to make "on-the-fly" changes without restarting the
